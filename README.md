@@ -1,19 +1,28 @@
-# 🎓 IFAL 2026
+# 🎓 IFAL
 - Status: Em desenvolvimento
-- Campus: Marechal Deodoro
+- Campus: IFAL Marechal Deodoro
 - Turma: 2°A de Desenvolvimento de Sistemas
 
 ---
 ## 📚 Sobre
-
-Este repositório reúne todos os projetos que crio ao longo das disciplinas técnicas do meu curso.  
-Cada pasta representa um projeto, atividade ou desafio, e dentro dela você encontra o código-fonte, uma breve explicação e, quando necessário, instruções de uso.
+Este repositório reúne todas as atividades realizadas ao longo das disciplinas técnicas do meu curso.  
+Cada pasta representa um projeto ou atividade.
 
 **Objetivos:**
-- Organizar meu aprendizado em um só lugar;
-- Compartilhar meu progresso com colegas e professores;
-- Criar um portfólio colaborativo e divertido.
+- Organização;
+- Compartilhar meu progresso;
+- Uso futuro;
 
 ---
 ## 🚀 Projetos
-- **Conta Bancária (Java)** - Em Desenvolvimento **(2° Bimestre)**
+- **Milk Inside My Stomach (Scratch, 1°Ano, 2° Bim.)**
+    - Jogo desenvolvido no Scratch, com inspiração de Milk Outside a Bag of Milk.
+    - **Matéria:** Introdução à Programação
+
+- **Gerenciamento de Biblioteca (Python, 1°Ano, 4° Bim.)**
+    - Sistema de Gerenciamento de Biblioteca simples, com banco de dados em JSON, salvo em arquivo.
+    - **Matéria:** Introdução à Programação
+
+- **Conta Bancária (Java, 2° Ano, 2° Bim.)**
+    - Projeto de Gerenciamento Bancário simples, com interface swing.
+    - **Matéria:** Programação Orientada a Objetos.
