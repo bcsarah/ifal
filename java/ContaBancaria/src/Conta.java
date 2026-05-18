@@ -26,13 +26,6 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    // Saca uma quantia em dinheiro
-    public void sacar(double quantia) {
-        saldo -= quantia;
-        if (saldo <= 0)
-            saldo = 0;
-    }
-
     // Deposita uma quantia em dinheiro
     public void depositar(double quantia) {
         saldo += quantia;
