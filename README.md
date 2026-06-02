@@ -24,8 +24,3 @@ Cada pasta representa um projeto ou atividade.
 - **Gerenciamento de Biblioteca (Python, 4° Bim.)**
     - Sistema de Gerenciamento de Biblioteca simples, com banco de dados em JSON, salvo em arquivo.
     - **Matéria:** Introdução à Programação.
-
-### 2° Ano
-- **Conta Bancária (Java, 2° Bim.)**
-    - Projeto de Gerenciamento Bancário simples, com interface swing.
-    - **Matéria:** Programação Orientada a Objetos.

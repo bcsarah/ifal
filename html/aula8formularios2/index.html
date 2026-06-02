@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz de Identidade Cultural</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Qual cidade do interior vc seria?</h1>
+    </header>
+
+    <hr>
+    <br>
+
+    <!-- Formulário -->
+    <form action="#" method="post">
+
+        <!-- Radio -->
+        <fieldset>
+            <legend><b>Pergunta 1:</b> Quais desses cronogramas mais combina com vc?</legend>
+            
+                <input type="radio" name="estilo" value="natureza" id="natureza">
+                <label for="natureza">Acampar na natureza</label>
+                <br>
+            
+                <input type="radio" name="estilo" value="festa" id="festa">
+                <label for="festa">Ir a uma festa junina</label>
+                <br>
+            
+                <input type="radio" name="estilo" value="comida" id="comida">
+                <label for="comida">Comer comida típica</label>
+                <br>
+
+                <input type="radio" name="estilo" value="descanso" id="descanso">
+                <label for="descanso">Ficar em casa</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Checkbox -->
+        <fieldset>
+            <legend><b>Pergunta 2:</b> Quais desses lugares vc ja foi?</legend>
+            
+                <input type="checkbox" name="lugares[]" value="cachoeira" id="cachoeira">
+                <label for="cachoeira">Cachoeira</label>
+                <br>
+            
+                <input type="checkbox" name="lugares[]" value="igreja" id="igreja">
+                <label for="igreja">Igreja</label>
+                <br>
+            
+                <input type="checkbox" name="lugares[]" value="feira" id="feira">
+                <label for="feira">Feira</label>
+                <br>
+            
+                <input type="checkbox" name="lugares[]" value="museu" id="museu">
+                <label for="museu">Museu da Cidade</label>
+                <br>
+            
+                <input type="checkbox" name="lugares[]" value="parque" id="parque">
+                <label for="parque">Parque</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Lista -->
+        <fieldset>
+            <legend><b>Pergunta 3:</b> Escolha a cidade que vc mais se identifica</legend>
+            
+                <label for="cidade">Cidade:</label>
+                <select name="cidade" id="cidade">
+                    <option value="" disabled selected>-- Selecione uma opção --</option>
+                    <option value="marechal">Marechal Deodoro - AL</option>
+                    <option value="maceio">Maceió - AL</option>
+                    <option value="barra">Barra de São Miguel - AL</option>
+                    <option value="palatea">Palatea - AL</option>
+                    <option value="londrina">Londrina - PR</option>
+                    <option value="foz">Foz do Iguaçu - PR</option>
+                    <option value="guarapuava">Guarapuava - PR</option>
+                    <option value="outra">Outra</option>
+                </select>
+        </fieldset>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Botões -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
