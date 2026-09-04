@@ -1,0 +1,198 @@
+/* ===== CONFIGURAÇÃO GLOBAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282828;
+    color: #ebdbb2;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 40px;
+    background: #1d2021;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.2rem;
+    color: #fabd2f;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+header .subtitulo {
+    font-size: 1.1rem;
+    color: #a89984;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* ===== NAV ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px 20px;
+    background-color: #1a1c1d;
+    border: 2px solid #3c3836;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #a89984;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 20px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #fabd2f;
+    background-color: rgba(250, 189, 47, 0.08);
+}
+
+/* ===== MAIN ===== */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* ===== SEÇÕES ===== */
+section {
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    color: #ebdbb2;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #fabd2f;
+    display: block;
+    letter-spacing: 1px;
+}
+
+section#indie h2 {
+    border-bottom-color: #8ec07c;
+}
+
+section#rpg h2 {
+    border-bottom-color: #fb4934;
+}
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* ===== CARDS ===== */
+.card {
+    background-color: #1d2021;
+    border: 2px solid #3c3836;
+    border-radius: 16px;
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+    flex: 1 1 280px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #fabd2f;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    background-color: #3c3836;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+}
+
+.card h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    color: #fabd2f;
+    min-height: 40px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #d5c4a1;
+    margin-bottom: 12px;
+    flex-grow: 1;
+}
+
+.card .detalhe {
+    font-size: 0.85rem;
+    color: #a89984;
+    margin-bottom: 4px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(60, 56, 54, 0.5);
+}
+
+.card .detalhe strong {
+    color: #ebdbb2;
+    font-weight: 700;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #1d2021;
+    border-top: 2px solid #3c3836;
+    padding: 30px 20px 25px;
+    text-align: center;
+    color: #a89984;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer p b {
+    color: #8ec07c;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #fabd2f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffde90;
+    text-decoration: underline;
+}
