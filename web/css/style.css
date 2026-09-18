@@ -37,7 +37,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 0.6rem;
+    padding: 0.6rem 1rem;
     background-color: #1a1c1d;
     border-top: 2px solid #3c3836;
     border-bottom: 2px solid #3c3836;
